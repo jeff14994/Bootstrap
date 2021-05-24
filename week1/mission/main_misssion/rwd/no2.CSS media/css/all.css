@@ -1,0 +1,25 @@
+/*先寫PC版型，再依序往下寫響應式設計*/
+.title{
+  color: red;
+}
+.content{
+  color: black;
+}
+/*在 iPad 直式下變更樣式*/
+/* 預設 title 是紅色，小於 768px 是藍色，小於 375px 是黃色 */
+@media(max-width:768px){
+  .title{
+    color: blue;
+  }
+  .content{
+    font-size: 30px;
+  }
+}
+/*在 iPhone11 直式下變更樣式 */
+@media(max-width: 375px){
+  .title{
+    color: yellow;
+  }
+}
+
+
