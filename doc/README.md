@@ -1,4 +1,3 @@
-{%hackmd theme-dark %}
 # 六角學院 - Bootstrap 5
 ###### tags: `六角學院` `Bootstrap 5` 
 [TOC]
